@@ -1,0 +1,196 @@
+/*Títol de NG9*/
+h1 {
+
+    font-family: "JetBrains Mono SemiBold";
+    background-color: #B0413E;
+    color: white;
+    font-size: 70px;
+    padding-right: 100px;
+    margin-top: 0px;
+    padding-left: 0px
+
+}
+
+/*El que separa la descripció dels jugadors*/
+
+.separacion1 {
+
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 50px;
+}
+
+/*Color i com ha de ser el botó*/
+
+.boton {
+
+    background-color: #184E39;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "DejaVu Serif Condensed";
+}
+
+/*Botó del jugadors*/
+
+.botonjug {
+
+    padding: 0px;
+    margin-bottom: 100px;
+    align-items: flex-start;
+    position: relative;
+    /*z-index: 10;*/
+    /*margin-top: 100px*/
+
+}
+
+.botonjug:hover {
+
+    background-color: #2f7559;
+    color: white;
+    transition-duration: 1s;
+    height: 90%;
+    z-index: 10;
+    padding-bottom: 200px;
+    /*display: grid;*/
+
+    .textodesc{
+        display: block;
+        position: absolute;
+        z-index: 10;
+
+
+    }
+}
+
+/*La separació dels jugadors i el text*/
+
+.separacionpet {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+    margin: 50px;
+    align-items: flex-start;
+
+}
+
+/*Lloc a on està la foto*/
+
+.botongran {
+
+    grid-column: span 1;
+    grid-row: span 6;
+    padding: 100px;
+    background-color: white;
+
+}
+
+/*Botó de la descripció de l'equip*/
+
+.botonabajo {
+
+    grid-row: 7;
+    text-align: start;
+
+}
+
+/*Text de Jugadors Destacats, mini títol*/
+
+.textocentro {
+
+    text-align: center;
+    color: #585435;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif Display";
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.textocentro:hover {
+
+    color: #8c8553;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Separació de la pàgina dos*/
+
+.sepseg {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 210px;
+    margin: 50px;
+    align-items: flex-start;
+}
+
+/*Descripció dels jugadors*/
+
+.textodesc {
+    display:none;
+}
+
+/*Text de centre de la segona pàgina*/
+
+.textocentro2 {
+
+    text-align: center;
+    color: #235643;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif Display";
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.textocentro2:hover {
+    color: #456c35;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Text per a l'enllaç*/
+
+txtjug2 {
+
+    text-align: right;
+    grid-column: span 3;
+    color: white;
+    margin-top: 50px;
+
+}
+
+/*Decoració de l'enllaç*/
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*Forma del botó per obrir l'altre pàgina*/
+
+.botonenl {
+
+    background-color: #184e39;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 15px;
+    margin: 80px;
+    display: compact;
+    font-family: "DejaVu Serif Condensed";
+    display: inline-block;
+    grid-row: span 2;
+    justify-content: flex-end;
+}
