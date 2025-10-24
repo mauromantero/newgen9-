@@ -1,0 +1,75 @@
+h1 {
+    color: beige;
+    background-color: #9b7777;
+    font-family: cursive;
+    font-size: 33px;
+    padding: 20px;
+    display: compact;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+cat {
+    color: black;
+    background-color: darkgreen;
+    font-family: "API  PHONÉTIQUE";
+    font-size: 47px;
+    margin: 200px;
+    display: compact;
+
+}
+
+ip {
+    display: block;
+}
+
+body {
+    margin: 39px;
+    background-color: #dad0d0;
+    padding: 30px;
+
+
+}
+
+.galeria {
+
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 50px;
+}
+
+.algo {
+
+    background-color: #4c934c;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 40px;
+    font-family: cursive;
+
+}
+
+.atitulo {
+
+    display: grid;
+    border-radius: 50px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+titulo {
+
+    background-color: #806363;
+    font-family: "Noto Music";
+    display: compact;
+    margin: 40px;
+    padding: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+}
