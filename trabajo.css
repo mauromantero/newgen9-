@@ -194,3 +194,55 @@ a {
     grid-row: span 2;
     justify-content: flex-end;
 }
+
+.septienda {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    justify-content: center;
+}
+
+.botoncompra {
+    background-color: #184E39;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 80px;
+    font-family: "fantasy";
+    padding: 0px;
+}
+
+.seppeque {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.botonlista {
+    background-color: #585435;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 80px;
+    font-family: "fantasy";
+    padding: 0px;
+    display: none
+}
+
+.botonpacompra {
+    background-color: #5593a4;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 80px;
+    font-family: "fantasy";
+    padding: 0px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.botonpacompra:hover {
+    background-color: #7cc0d3;
+}
