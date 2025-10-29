@@ -2,6 +2,8 @@
 <html lang="es">
 <link rel="stylesheet" href="trabajo.css">
 <link rel="icon" type="image/png" href="/img/ng9princip.png"/>
+<script type="text/javascript" src="JSCompra.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <title>Tienda Online NG9</title>
@@ -13,51 +15,59 @@
     <div class="botoncompra">
 
         <p>NG9 New Air</p>
-        <p class="botonpacompra" id="compra1">25,99€</p>
+        <button class="botonpacompra" id="compra1" onclick="ColocarCompra()">25,99€</button>
 
     </div>
     <div class="botoncompra">
         <p>NG9 Alex's Choice</p>
-        <p class="botonpacompra"id="compra2">29,99€</p>
+        <button class="botonpacompra"id="compra2">29,99€</button>
 
     </div>
     <div class="botoncompra">
         <p>NG9 Defend Status Air</p>
-        <p class="botonpacompra" id="compra3">55,99€</p>
+        <button class="botonpacompra" id="compra3">55,99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 New Force</p>
-        <p class="botonpacompra" id="compra4">28,99€</p>
+        <button class="botonpacompra" id="compra4">28,99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 Rebelion</p>
-        <p class="botonpacompra" id="compra5">39,99€</p>
+        <button class="botonpacompra" id="compra5">39,99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 Predator</p>
-        <p class="botonpacompra" id="compra6">58,99€</p>
+        <button class="botonpacompra" id="compra6">58,99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 Olifer's</p>
-        <p class="botonpacompra" id="compra7">19,99€</p>
+        <button class="botonpacompra" id="compra7">19,99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 Fly Attack</p>
-        <p class="botonpacompra" id="compra8" onclick="">24,99€</p>
+        <button class="botonpacompra" id="compra8" onclick="">24,99€</button>
     </div>
 
-    <div class="seppeque">
-        <div class="botonlista" >
-        </div>
+    <div class="divisionlista">
+<p class="botonlista" id="Lista"></p>
+    <div>
+    <button class="botonX" id="BotonX" onclick="ColocarX()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+    </button>
+
+    </div>
+
     </div>
 
 </div>
 
-<p class="botonenl"><a href="index.html">Volvera la página principal</p>
+<p class="botonenl"><a href="index.html">Volver a la página principal</p>
 </body>
 </html>

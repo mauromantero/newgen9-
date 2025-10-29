@@ -246,3 +246,13 @@ a {
 .botonpacompra:hover {
     background-color: #7cc0d3;
 }
+
+.divisionlista{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.botonX{
+    align-items: flex-end;
+    display: none
+}
