@@ -14,60 +14,79 @@
 <div class="septienda">
     <div class="botoncompra">
 
+        <img class="fotocompra" src="img/zapas1.png" height="230px" width="400px"/>
         <p>NG9 New Air</p>
-        <button class="botonpacompra" id="compra1" onclick="ColocarCompra()">25,99€</button>
+        <button class="botonpacompra" id="compra1" onclick="ColocarCompra('NG9 New Air', '25.99' )">25.99€</button>
 
     </div>
     <div class="botoncompra">
+        <img class="fotocompra" src="img/zapato2.png" height="230px" width="400px"/>
         <p>NG9 Alex's Choice</p>
-        <button class="botonpacompra"id="compra2">29,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('Alex Choice', '29.99' )">29.99€</button>
 
     </div>
     <div class="botoncompra">
+        <img class="fotocompra" src="img/zapato3.png" height="230px" width="400px"/>
         <p>NG9 Defend Status Air</p>
-        <button class="botonpacompra" id="compra3">55,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Defend Status Air', '55.99' )">55.99€</button>
     </div>
 
     <div class="botoncompra">
+        <img class= fotocompra src="img/zapato4.png" height="230px" width="400px"/>
         <p>NG9 New Force</p>
-        <button class="botonpacompra" id="compra4">28,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 New Force', '28.99' )">28.99€</button>
     </div>
 
     <div class="botoncompra">
+
+        <img class="fotocompra" src="img/zapato5.png" height="230px" width="400px"/>
         <p>NG9 Rebelion</p>
-        <button class="botonpacompra" id="compra5">39,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Rebelion', '39.99' )">39.99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 Predator</p>
-        <button class="botonpacompra" id="compra6">58,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Predator', '58.99' )">58.99€</button>
     </div>
 
     <div class="botoncompra">
         <p>NG9 Olifer's</p>
-        <button class="botonpacompra" id="compra7">19,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Olifers', '19.99' )">19.99€</button>
     </div>
 
     <div class="botoncompra">
+        <img class="fotocompra" src="img/zapato6.png" height="230px" width="400px"/>
         <p>NG9 Fly Attack</p>
-        <button class="botonpacompra" id="compra8" onclick="">24,99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Fly Attack', '24.99' )">24.99€</button>
     </div>
 
-    <div class="divisionlista">
-<p class="botonlista" id="Lista"></p>
     <div>
-    <button class="botonX" id="BotonX" onclick="ColocarX()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-        </svg>
-    </button>
+        <p class="botonenl">
+            <a href="index.html">Volver a la página principal</a>
+        </p>
+    </div>
+
+    <div class="cistella">
+        <button class="botonX" id="BotonX" onclick="botoncerrar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+        </button>
+
+        <p class="botonlista" id="Lista"></p>
+
+
+        <div>
+
+        <div id="Sumatotal"><p></p></div>
 
     </div>
 
-    </div>
+
 
 </div>
 
-<p class="botonenl"><a href="index.html">Volver a la página principal</p>
+</div>
+
 </body>
 </html>

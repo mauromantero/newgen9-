@@ -193,11 +193,12 @@ a {
     display: inline-block;
     grid-row: span 2;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .septienda {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
     justify-content: center;
 }
@@ -225,7 +226,7 @@ a {
     border-radius: 80px;
     font-family: "fantasy";
     padding: 0px;
-    display: none
+    display: none;
 }
 
 .botonpacompra {
@@ -253,6 +254,15 @@ a {
 }
 
 .botonX{
-    align-items: flex-end;
     display: none
+}
+
+.fotocompra{
+   margin-top: 30px;
+    border-radius: 20px;
+}
+
+.cistella{
+    grid-column: 4;
+    grid-row: 1 / span 3;
 }
