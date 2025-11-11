@@ -196,12 +196,16 @@ a {
     align-items: center;
 }
 
+/*La separació per a les sabates*/
+
 .septienda {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
     justify-content: center;
 }
+
+/*La classe per a que les sabates estiguin totes iguals*/
 
 .botoncompra {
     background-color: #184E39;
@@ -212,6 +216,8 @@ a {
     font-family: "fantasy";
     padding: 0px;
 }
+
+
 
 .seppeque {
     display: grid;
@@ -245,6 +251,12 @@ a {
 }
 
 .botonpacompra:hover {
+    background-color: #6da8b9;
+    color: white;
+    cursor:pointer;
+}
+
+.botonpacompra:hover {
     background-color: #7cc0d3;
 }
 
@@ -259,10 +271,14 @@ a {
 
 .fotocompra{
    margin-top: 30px;
-    border-radius: 20px;
+    border-radius: 80px;
 }
 
 .cistella{
     grid-column: 4;
     grid-row: 1 / span 3;
+}
+
+.fotocompra2{
+    margin: 30px;
 }

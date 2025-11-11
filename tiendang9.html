@@ -9,62 +9,82 @@
     <title>Tienda Online NG9</title>
 </head>
 <body>
+
+<!--Titol de la tenda-->
+
 <h1>NG9 Tienda Online</h1>
 
+<!--Les separacions de les sabates i la cistella-->
+
 <div class="septienda">
+
+<!--    Les sabates, i els seus preus per comprar-->
+
     <div class="botoncompra">
 
         <img class="fotocompra" src="img/zapas1.png" height="230px" width="400px"/>
         <p>NG9 New Air</p>
-        <button class="botonpacompra" id="compra1" onclick="ColocarCompra('NG9 New Air', '25.99' )">25.99€</button>
+        <button class="botonpacompra" id="compra1" onclick="ColocarCompra('NG9 New Air', '25.99', 'img/zapas1.png' )">25.99€</button>
 
     </div>
     <div class="botoncompra">
-        <img class="fotocompra" src="img/zapato2.png" height="230px" width="400px"/>
+        <img class="fotocompra" src="img/zapato2.webp" height="235px" width="370px" />
         <p>NG9 Alex's Choice</p>
-        <button class="botonpacompra" onclick="ColocarCompra('Alex Choice', '29.99' )">29.99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('Alex Choice', '19.99', 'img/zapato2.webp' )">19.99€</button>
 
     </div>
     <div class="botoncompra">
         <img class="fotocompra" src="img/zapato3.png" height="230px" width="400px"/>
         <p>NG9 Defend Status Air</p>
-        <button class="botonpacompra" onclick="ColocarCompra('NG9 Defend Status Air', '55.99' )">55.99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Defend Status Air', '55.99', 'img/zapato3.png' )">55.99€</button>
     </div>
 
     <div class="botoncompra">
         <img class= fotocompra src="img/zapato4.png" height="230px" width="400px"/>
         <p>NG9 New Force</p>
-        <button class="botonpacompra" onclick="ColocarCompra('NG9 New Force', '28.99' )">28.99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 New Force', '27.99', 'img/zapato4.png' )">27.99€</button>
     </div>
 
     <div class="botoncompra">
 
         <img class="fotocompra" src="img/zapato5.png" height="230px" width="400px"/>
         <p>NG9 Rebelion</p>
-        <button class="botonpacompra" onclick="ColocarCompra('NG9 Rebelion', '39.99' )">39.99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Rebelion', '39.99', 'img/zapato5.png' )">39.99€</button>
     </div>
 
     <div class="botoncompra">
+        <img class="fotocompra" src="img/zapato9.png" height="230px" width="400px"/>
         <p>NG9 Predator</p>
-        <button class="botonpacompra" onclick="ColocarCompra('NG9 Predator', '58.99' )">58.99€</button>
-    </div>
-
-    <div class="botoncompra">
-        <p>NG9 Olifer's</p>
-        <button class="botonpacompra" onclick="ColocarCompra('NG9 Olifers', '19.99' )">19.99€</button>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Predator', '58.99', 'img/zapato9.png' )">58.99€</button>
     </div>
 
     <div class="botoncompra">
         <img class="fotocompra" src="img/zapato6.png" height="230px" width="400px"/>
-        <p>NG9 Fly Attack</p>
-        <button class="botonpacompra" onclick="ColocarCompra('NG9 Fly Attack', '24.99' )">24.99€</button>
+        <p>NG9 Olifer's</p>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Olifers', '35.99', 'img/zapato6.png' )">35.99€</button>
     </div>
+
+    <div class="botoncompra">
+        <img class="fotocompra" src="img/zapato%208.png" height="230px" width="400px"/>
+        <p>NG9 Fly Attack</p>
+        <button class="botonpacompra" onclick="ColocarCompra('NG9 Fly Attack', '24.99', 'img/zapato%208.png' )">24.99€</button>
+    </div>
+
+    <div class="botoncompra">
+    <img class="fotocompra" src="img/zapato10.png" height="230px" width="400px"/>
+    <p>Miquel Badass</p>
+    <button class="botonpacompra" onclick="ColocarCompra('Miquel Badass', '28.99', 'img/zapato10.png' )">28.99€</button>
+    </div>
+
+<!--    L'enllaç per tornar a la pàgina principal de la web-->
 
     <div>
         <p class="botonenl">
             <a href="index.html">Volver a la página principal</a>
         </p>
     </div>
+
+<!--    Aqui surt la cistella amb el botó per llevar la cistella i el total dels productes encomanats-->
 
     <div class="cistella">
         <button class="botonX" id="BotonX" onclick="botoncerrar()">
