@@ -21,6 +21,7 @@ function botoncerrar(){
     document.getElementById("Lista").innerText = ""
     document.getElementById('Totalproductes').innerText = ""
     productos = 0;
+
     total= 0.00;
 }
 
